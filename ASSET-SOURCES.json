@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Perro Boyacense",
+    "file": "boyacense.png",
+    "url": "https://images.rappi.com/products/412a9473-93c7-444b-9c3e-6c8817e6ec5e.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche, base de tocineta, longaniza, cebolla caramelizada en arándanos, ripio, con ruana de queso y salsa verde.",
+    "width": 500,
+    "height": 500,
+    "bytes": 414595,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Perro Buenona",
+    "file": "buenona.png",
+    "url": "https://images.rappi.com/products/3e7e4784-3a28-4f6b-8176-8c2c8428b870.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche, base de tocineta, chicharrón carnudo, plátano maduro, ripio, queso, guacamole, salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 395950,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Malteadas",
+    "file": "malteadas.png",
+    "url": "https://images.rappi.com/products/6f401daf-d695-4508-8733-5ee532705e05.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Malteadas con sabor a elegir, decoradas con crema batida y sirope de chocolate.",
+    "width": 500,
+    "height": 500,
+    "bytes": 411219,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Hamburguesa Bandida",
+    "file": "bandida.png",
+    "url": "https://images.rappi.com/products/c90fb9dc-ec74-49ad-a22f-eaa3afb7d67f.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche, 125 g carne de res, 125 g de cerdo en larga cocción con pimentón y panela, doble cheddar, cebolla caramelizada en arándanos y salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 424567,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Hamburguesa la Trepada",
+    "file": "trepada.png",
+    "url": "https://images.rappi.com/products/8a158f2c-59b3-422f-af8d-482174fce5c9.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche de molde, tres carnes de 100 g cada uno, queso cheddar y tocineta, cebolla krispy, salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 435053,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Bowl Chimbita",
+    "file": "bowl-chimbita.png",
+    "url": "https://images.rappi.com/products/0dbf2e12-804d-4c1a-9610-22e9be0cae35.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Papa casco, tocineta, salchicha de la casa, chicharrón carnudo, guacamole, plátano maduro, queso, salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 423472,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Perro Uyy Mamiii",
+    "file": "uy-mami.png",
+    "url": "https://images.rappi.com/products/4520ba87-eab9-450a-8dab-1e2e16e6e683.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche, mucha tocineta, bañada en queso, ripio, ensalada coleslaw y salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 436795,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Perro Potra Empoderada",
+    "file": "potra.png",
+    "url": "https://images.rappi.com/products/2ed7a8e1-053e-4a82-ae28-4728b3a5c42c.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Pan brioche, base de tocineta, mermelada de tocineta en vino blanco, chorizo artesanal, cebolla krispy, queso y salsa de ajo.",
+    "width": 500,
+    "height": 500,
+    "bytes": 526639,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Sodas Artesanales",
+    "file": "soda.jpg",
+    "url": "https://images.rappi.com/products/65c18ad1-afc3-4720-8baf-16799438d7c8.jpeg",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Sodas artesanales con sabores variados a elegir. Presentadas en frascos con hielo.",
+    "width": 1784,
+    "height": 1337,
+    "bytes": 612394,
+    "purpose": "Menu product photo"
+  },
+  {
+    "name": "Horizontal perra",
+    "file": "hero-insaciables.png",
+    "url": "https://losinsaciables.co/wp-content/uploads/Las-Perras-Compania.png",
+    "source": "https://losinsaciables.co/las-perras-compania-l-a/",
+    "description": "Perra cargada de queso y cebolla en bandeja con papel a cuadros; ambiente cálido y fondo humano desenfocado",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1959561,
+    "purpose": "Hero horizontal"
+  },
+  {
+    "name": "Horizontal burger",
+    "file": "restaurant-hero.png",
+    "url": "https://images.rappi.com/restaurants_background/d8b1b97a-a947-40ee-85c5-0e398da9863d-1712177715568.png",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Hamburguesa brioche con queso asado, lechuga y cebolla morada con papas y bebida",
+    "width": 641,
+    "height": 360,
+    "bytes": 577608,
+    "purpose": "Small hero alternative"
+  },
+  {
+    "name": "Las Perras & Compañía L.A logo",
+    "file": "logo.jpg",
+    "url": "https://images.rappi.com/restaurants_logo/24542-1709219667481.jpg",
+    "source": "https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la",
+    "description": "Logo oficial con letras amarillas tipo brush, fondo morado, detalles turquesa y sombra negra",
+    "width": 1000,
+    "height": 1000,
+    "bytes": 89896,
+    "purpose": "Brand reference"
+  }
+]

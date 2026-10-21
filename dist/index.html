@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9B10E5">
+  <meta name="description" content="Una propuesta con todo el sabor de Las Perras & Compañía: perras con tocineta, hamburguesas y buena compañía en Villas de Granada, Bogotá.">
+  <title>Las Perras & Compañía · El antojo tiene nombre</title>
+  <link rel="icon" href="assets/brand/logo.png" type="image/png">
+  <link rel="preload" href="assets/brush.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cart.css?v=whatsapp-1">
+  <link rel="stylesheet" href="brand-theme.css?v=carta-1">
+  <link rel="stylesheet" href="menu-ui.css?v=fotos-2">
+  <script src="catalog.js?v=fotos-2" defer></script>
+  <script src="cart-model.js?v=whatsapp-1" defer></script>
+  <script src="order-config.js?v=whatsapp-1" defer></script>
+  <script src="app.js?v=whatsapp-1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Ir al menú</a>
+  <header class="header">
+    <a href="#inicio" class="wordmark" aria-label="Las Perras y Compañía, inicio"><img class="brand-logo" src="assets/brand/logo.png" alt="Las Perras &amp; Compañía L.A." width="804" height="730"></a>
+    <nav class="desktop-nav" aria-label="Navegación principal"><a href="#menu">El menú</a><a href="#esencia">La esencia</a><a href="#visitanos">Caéle al parche</a></nav>
+    <button type="button" class="button button-small button-cyan header-cart" data-open-cart aria-label="Abrir carrito, 0 productos"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2 12h12l2-8H6M9 21h.01M18 21h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="cart-label">Mi carrito</span><span class="cart-count" data-cart-count>0</span></button>
+    <button class="nav-toggle" aria-label="Abrir navegación" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" hidden><a href="#menu">El menú</a><a href="#esencia">La esencia</a><a href="#visitanos">Caéle al parche</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="little-star" aria-hidden="true">✳</span> COMIDA ARTESANAL · BOGOTÁ</div>
+        <h1 id="hero-title">EL ANTOJO<br>TIENE <span class="outline-word">NOMBRE.</span><span class="pink-period">*</span></h1>
+        <p>Tocineta, salsas de la casa y actitud de sobra.<br>Bienvenidos a Las Perras & Compañía.</p>
+        <div class="hero-actions"><a href="#menu" class="button button-yellow">Conoce el menú <span aria-hidden="true">↘</span></a><a class="text-link light" href="#visitanos">Ven con tu combo <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-bottom"><span class="location-dot" aria-hidden="true"></span> VILLAS DE GRANADA, BOGOTÁ <span class="hero-bottom-line"></span><span>BIEN ACOMPAÑADOS, MEJOR.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-photo" src="assets/hero.png" alt="Una perra de Las Perras y Compañía, con pan brioche y abundantes ingredientes" fetchpriority="high" width="1200" height="1200">
+        <div class="hero-photo-shade"></div>
+        <img class="brand-mouth" src="assets/brand/mouth.png" alt="" width="342" height="444">
+        <span class="photo-caption">NO ES CUALQUIER ANTOJO.</span>
+        
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Perras, hamburguesas y buena compañía"><div class="ticker-track" aria-hidden="true"><span>PERRAS CON ACTITUD</span><i>✳</i><span>SALSAS DE LA CASA</span><i>✳</i><span>BUENA COMPAÑÍA</span><i>✳</i><span>PERRAS CON ACTITUD</span><i>✳</i><span>SALSAS DE LA CASA</span><i>✳</i><span>BUENA COMPAÑÍA</span><i>✳</i></div></div>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading"><div><span class="eyebrow">01 / EL MENÚ</span><h2 id="menu-title">ESCOGE TU<br><span class="pink-text">NUEVA OBSESIÓN.</span></h2></div><p>Para el antojo serio, para compartir<br>o para pedir “una mordidita”.<br><strong>Aquí hay con qué.</strong></p></div>
+      <div class="menu-toolbar"><div class="filters" id="menu-filters" role="group" aria-label="Categorías del menú"></div></div><div class="menu-search-row"><label class="menu-search-label" for="menu-search">¿QUÉ SE TE ANTOJA?<input id="menu-search" type="search" placeholder="Busca un plato o ingrediente…" autocomplete="off"></label><p id="menu-results" role="status" aria-live="polite"></p></div><p class="menu-price-note">Todos los productos y precios de la carta del restaurante. El domicilio y la disponibilidad se confirman por separado. Las imágenes marcadas son ilustrativas; la presentación puede variar. <a href="assets/carta-perras.pdf" target="_blank" rel="noopener">Ver carta original ↗</a></p>
+      <div class="menu-grid" id="menu-grid"></div>
+      <div class="menu-end"><p>Tu antojo, a tu manera.<br><span>Añade tus favoritos, ajusta cantidades y continúa por WhatsApp.</span></p><a class="text-link" href="assets/carta-perras.pdf" target="_blank" rel="noopener">Ver la carta original <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="manifesto" id="esencia" aria-labelledby="essence-title">
+      <div class="manifesto-visual"><img src="assets/hero.png" alt="Comida artesanal de Las Perras y Compañía" width="1000" height="1200" loading="lazy"><div class="image-tag">AQUÍ SE VIENE<br>A COMER SABROSO.</div></div>
+      <div class="manifesto-copy"><span class="eyebrow">02 / LA ESENCIA</span><h2 id="essence-title">MUCHA<br>TOCINETA.<br><span class="cyan-text">CERO TIMIDEZ.</span></h2><p class="manifesto-lead">Una idea paisa. Un antojo muy nuestro.</p><p>La perra cambia la salchicha por tocineta. Nosotros le ponemos el toque de la casa: combinaciones con sabor colombiano, salsas artesanales y nombres que no pasan desapercibidos.</p><div class="manifesto-notes"><div><b>01</b><span>Salsas<br>de la casa</span></div><div><b>02</b><span>Sabores<br>colombianos</span></div><div><b>03</b><span>Buena<br>compañía</span></div></div><a class="text-link light" href="#menu">Encuentra la tuya <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="social-section section-pad" aria-labelledby="social-title"><div class="social-kicker"><span class="eyebrow">HECHO PARA COMPARTIR</span><span class="social-star" aria-hidden="true">✳</span></div><div class="social-heading"><h2 id="social-title">ANTOJARSE<br>ES <span class="outline-dark">INEVITABLE.</span></h2><a href="#menu" class="button button-dark">Encuentra tu antojo <span aria-hidden="true">↗</span></a></div><div class="photo-strip"><figure><img src="assets/potra.png" alt="Antojo de la carta de Las Perras y Compañía" loading="lazy" width="600" height="600"><figcaption>ESTO SÍ ES UN PLAN.</figcaption></figure><figure><img src="assets/social-2.png" alt="Una hamburguesa artesanal lista para disfrutar" loading="lazy" width="600" height="600"><figcaption>CON TODAS LAS GANAS.</figcaption></figure><figure><img src="assets/shake.png" alt="Bebida de la carta para acompañar la comida" loading="lazy" width="600" height="600"><figcaption>Y EN BUENA COMPAÑÍA.</figcaption></figure></div></section>
+
+    <section class="visit section-pad" id="visitanos" aria-labelledby="visit-title"><div class="visit-copy"><span class="eyebrow">03 / NOS VEMOS EN LA MESA</span><h2 id="visit-title">CAÉLE<br>AL <span>PARCHE.</span></h2><p>Trae el hambre. Y a tu persona favorita.</p><a class="button button-dark" href="https://www.google.com/maps/search/?api=1&query=Las%20Perras%20y%20Compa%C3%B1%C3%ADa%20Cra%20112A%2078D-25%20Bogot%C3%A1" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a></div><div class="visit-details"><span class="visit-number" aria-hidden="true">BOG<span>↗</span></span><div class="visit-row"><span>ENCUÉNTRANOS</span><p>Cra. 112A #78D-25<br>Villas de Granada · Bogotá</p></div><div class="visit-row"><span>¿PLAN EN CASA?</span><p>El antojo también llega.<br><a href="https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la" target="_blank" rel="noopener noreferrer">Pide a través de Rappi ↗</a></p></div><div class="visit-row"><span>PARA DOMICILIOS</span><p><a href="https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la" target="_blank" rel="noopener noreferrer">Consulta la disponibilidad ↗</a><br>en el canal de pedidos.</p></div></div></section>
+
+    <section class="faq-section section-pad" aria-labelledby="faq-title"><div><span class="eyebrow">POR SI TE LO PREGUNTABAS</span><h2 id="faq-title">SIN VUELTAS.</h2></div><div class="faq-list"><details><summary>¿Qué es una perra?<span aria-hidden="true">+</span></summary><p>Es una preparación en pan con base de tocineta en lugar de salchicha. Cada versión tiene su propia combinación de ingredientes y salsas.</p></details><details><summary>¿Puedo pedir a domicilio?<span aria-hidden="true">+</span></summary><p>Sí. Puedes consultar cobertura, disponibilidad, precios y condiciones de entrega directamente en <a href="https://www.rappi.com.co/restaurantes/900399542-las-perras-y-compania-la" target="_blank" rel="noopener noreferrer">Rappi</a>.</p></details><details><summary>¿Dónde consulto la carta y los precios?<span aria-hidden="true">+</span></summary><p>Los precios y las opciones corresponden a la carta del restaurante. Elige sabores, añade salchicha a tu perra si quieres y continúa con tu pedido por WhatsApp de pruebas. Revisa el mensaje y pulsa Enviar en el chat. El restaurante confirma la disponibilidad y el domicilio. Consulta la carta original y confirma cualquier restricción alimentaria antes de pedir.</p></details></div></section>
+  </main>
+
+<div class="art-ribbon" aria-hidden="true"><img src="assets/brand/collage-1.jpg" alt="" width="345" height="345" loading="lazy"><img src="assets/brand/collage-2.jpg" alt="" width="345" height="345" loading="lazy"><img src="assets/brand/collage-3.jpg" alt="" width="345" height="345" loading="lazy"><img src="assets/brand/collage-4.jpg" alt="" width="345" height="345" loading="lazy"><img src="assets/brand/collage-5.jpg" alt="" width="345" height="345" loading="lazy"><img src="assets/brand/collage-6.jpg" alt="" width="345" height="345" loading="lazy"></div>
+  <footer class="footer"><div class="footer-top"><a href="#inicio" class="wordmark"><img class="brand-logo" src="assets/brand/logo.png" alt="Las Perras &amp; Compañía L.A." width="804" height="730"></a><p>ANTOJO DEL BUENO.<br>COMPAÑÍA DE LA MEJOR.</p><a href="assets/carta-perras.pdf" target="_blank" rel="noopener">La carta original ↗</a></div><div class="footer-bottom"><span>BOGOTÁ, COLOMBIA · CON MUCHO SABOR.</span><span>Propuesta de diseño independiente. Información y uso de imágenes sujetos a aprobación del restaurante.</span><a href="#inicio" aria-label="Volver arriba">↑</a></div></footer>
+
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Cerrar detalle">×</button><div class="dialog-image-wrap" id="dialog-image-wrap"><img id="dialog-image" src="assets/mami.png" alt="" width="800" height="800"></div><div class="dialog-copy"><span class="eyebrow" id="dialog-category"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><p id="dialog-photo-note" class="dialog-photo-note" hidden></p><div class="dialog-price"><strong id="dialog-price"></strong><span>Precio de carta / unidad</span></div><p id="product-status" class="modal-status" role="status" aria-live="polite" aria-atomic="true"></p><form id="product-form"><div id="product-options"></div><div id="product-extras"></div><label class="field-label" id="product-note-label" for="product-note">¿Alguna nota para la cocina? (opcional)</label><textarea id="product-note" rows="2" maxlength="200" placeholder="Por ejemplo: salsa aparte."></textarea><p class="field-help">Las notas para la cocina están sujetas a confirmación.</p><div class="product-quantity-row"><label for="product-quantity">Cantidad</label><div class="quantity-control"><button id="product-minus" type="button" aria-label="Disminuir cantidad">−</button><input id="product-quantity" type="number" value="1" min="1" max="20" readonly><button id="product-plus" type="button" aria-label="Aumentar cantidad">+</button></div></div><button type="submit" class="button button-dark add-product">Añadir al carrito <span id="add-product-total"></span></button></form></div></dialog>
+
+  <button class="cart-bar" id="cart-bar" type="button" data-open-cart hidden><span class="cart-bar-count" data-cart-count>0</span><span>Ver mi carrito<small>Todo tu antojo, en un solo lugar.</small></span><strong data-cart-total>$0</strong><span aria-hidden="true">↗</span></button>
+  <div class="cart-toast" id="cart-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title" aria-describedby="cart-price-note">
+    <div class="cart-heading"><div><span class="eyebrow">SE ARMÓ EL ANTOJO</span><h2 id="cart-title">TU CARRITO<span>.</span></h2><p id="cart-item-label">0 productos · Hecho a tu antojo</p><p id="whatsapp-destination" class="whatsapp-destination">PRUEBAS · WhatsApp +57 322 229 0244</p></div><button type="button" class="cart-close" id="cart-close" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-scroll"><p id="cart-status" class="modal-status" role="status" aria-live="polite" aria-atomic="true"></p><div class="cart-empty" id="cart-empty"><span aria-hidden="true">✳</span><h3>Tu carrito<br>tiene hambre.</h3><p>Empieza con una perra, suma compañía<br>y arma tu combinación.</p><button class="button button-dark" id="empty-explore" type="button">Explorar el menú ↘</button></div><div id="cart-content" hidden><div class="cart-list-heading"><span>TU SELECCIÓN</span><button class="clear-cart" id="clear-cart" type="button">Vaciar carrito</button></div><ul id="cart-items" class="cart-items"></ul><label class="field-label" for="cart-note">Una nota para todo el pedido (opcional)</label><textarea id="cart-note" rows="2" maxlength="200" placeholder="¿Algo que debamos tener en cuenta?"></textarea><p class="field-help" id="storage-note" hidden>Este navegador no permite guardar el carrito. Tu selección se conservará mientras esta página siga abierta.</p><div id="summary-fallback" hidden><label class="field-label" for="order-summary">Selecciona y copia tu resumen</label><textarea id="order-summary" rows="10" readonly></textarea></div></div></div>
+    <div class="cart-footer" id="cart-footer" hidden><div class="cart-total-row"><span>Total estimado</span><strong data-cart-total>$0</strong></div><p id="cart-price-note">Precios de la carta del restaurante. Las opciones y adicionales elegidos están incluidos. Domicilio y disponibilidad por confirmar.</p><a id="checkout-whatsapp" class="button button-yellow" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" aria-describedby="checkout-help" aria-disabled="true" tabindex="-1">Finalizar por WhatsApp <span aria-hidden="true">↗</span></a><button id="copy-cart" class="button copy-order" type="button">Copiar pedido</button><p id="checkout-help" class="cart-send-note">Revisa el pedido y pulsa Enviar en WhatsApp. La confirmación se hace en el chat.</p></div>
+  </dialog>
+</body>
+</html>
+
+
+
+
+
+
