@@ -22,6 +22,12 @@ node preview.mjs
 
 Abrir http://127.0.0.1:4317. Para alojarlo en otro servicio, publicar el contenido de `dist/`.
 
+## GitHub Pages
+
+El flujo `.github/workflows/pages.yml` comprueba el catálogo y el carrito antes de publicar únicamente `dist/`. En **Settings → Pages → Build and deployment → Source**, seleccionar **GitHub Actions**. Después, ejecutar el flujo desde **Actions** o enviar un cambio a `main`.
+
+La dirección prevista es `https://listoia21-pixel.github.io/las-perras-compania/`; estará disponible cuando Pages esté habilitado y el despliegue termine correctamente. Un repositorio privado requiere un plan compatible con Pages. Los recursos usan rutas relativas para funcionar bajo `/las-perras-compania/`.
+
 ## Comprobaciones
 
 Desde la raíz del repositorio:
